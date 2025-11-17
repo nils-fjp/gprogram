@@ -51,7 +51,7 @@ const getArrowName = () => {
 };
 
 // 1. "Kira"
-// 2. "Rax"
+// 2. 20
 // 3. 11
 // 4. "Rax"
 // 5. "Server 1 is OK"
@@ -71,6 +71,22 @@ console.log("12.", server.getStatus.call(p2));
 // 14. "Server undefined is OK"
 console.log("14", server.getStatusArrow.call(p1));
 // 15. 12
-
-// 20.
+// 16. true
+// 17. false (efts saknas i instansen)
+// 18. true (efts pilfunktion)
+// 19. "Zane"
+// 20. "Server 99 is OK"
 console.log("20.", server.getStatus.call({ id: 99 }));
+// 21.
+
+class Inventory {
+    constructor(items) {
+        this.items = [];
+    }
+}
+
+class User {
+    constructor(name) {
+        this.name = name;
+    }
+}
