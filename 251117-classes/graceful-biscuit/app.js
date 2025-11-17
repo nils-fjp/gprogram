@@ -46,4 +46,27 @@ let result = null;
 //14. key
 //15. 0
 //16. 12
-//17.
+//17. object
+console.log("17. ", typeof user1);
+
+//18. function
+console.log("18.", typeof user1.getName);
+
+/* //19. 50
+user1.level = 50;
+return user1.level;
+console.log("19.", user1.level);
+//20. 5
+ */
+//
+class Car {
+    constructor(brand, year) {
+        this.brand = brand;
+        this.year = year;
+    }
+    getDetails() {
+        return `Märke: ${this.brand}, år: ${this.year}`;
+    }
+}
+const volvoCar = new Car("Volvo", 2022);
+console.log(volvoCar.getDetails());
