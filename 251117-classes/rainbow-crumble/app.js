@@ -84,3 +84,18 @@ class Inventory {
         this.items = [];
     }
 }
+
+class Inventory {
+    constructor() {
+        this.items = [];
+    }
+    addItem(item) {
+        return this.items.push(item);
+    }
+    getTotalItems() {
+        return this.items.length;
+    }
+    listItemsArrow = () => {
+        return this.items.join(",");
+    };
+}
