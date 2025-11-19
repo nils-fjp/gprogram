@@ -84,9 +84,3 @@ class Inventory {
         this.items = [];
     }
 }
-
-class User {
-    constructor(name) {
-        this.name = name;
-    }
-}
