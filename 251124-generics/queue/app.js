@@ -10,17 +10,19 @@ class Queue {
         this.items = [];
     }
     /**
-     * @param {string|number} item
+     * @param {T} item
      */
     add(item) {
         this.items.push(item);
     }
     /**
-     * @returns {T}
+     * /@/returns {T}
+     * @returns {T | undefined}
      */
     remove() {
-        this.items.shift();
-        return this.items[0];
+        //this.items.shift();
+        //return this.items[0];
+        return this.items.shift();
     }
 }
 
