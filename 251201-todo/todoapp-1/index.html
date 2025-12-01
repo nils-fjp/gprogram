@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href=data:/ type="image/x-icon">
+        <title>251201-todo</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <!-- Todo Appen -->
+            <div id="todo-app">
+                <div>
+                    <h1 class="title todo-title">Todo App</h1>
+                    <form class="formStyle">
+                        <input
+                            id="todo-input"
+                            type="text"
+                            placeholder="Lägg till en todo..."
+                        />
+                        <button class="buttonStyle" type="submit">
+                            Lägg till
+                        </button>
+                    </form>
+                </div>
+
+                <ul id="todo-list">
+                    <!-- Todo items will be inserted here by JavaScript -->
+                    <!--                     <li>-->
+                    <!--                         <div>-->
+                    <!--                            <input type="checkbox" name="" id="" />-->
+                    <!--                            <span>Sample Todo Item</span>-->
+                    <!--                        </div>-->
+                    <!--                        <button>x</button>-->
+                    <!--                    </li>-->
+                </ul>
+                <button class="buttonStyle" id="clear">Clear list</button>
+            </div>
+        </main>
+        <footer>&copy;Exempelföretag AB - 2025</footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
